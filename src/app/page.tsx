@@ -5,6 +5,10 @@ import { ComingSoonSection } from '../components/landing/ComingSoonSection'
 import { Footer } from '../components/landing/Footer'
 import { Button } from '../components/ui/Button'
 import { CommunityShowcase } from '@/components/landing/CommunityShowCase'
+import { FeatureSection } from '@/components/landing/FeaturedSection'
+import { PricingSection } from '@/components/landing/PricingSection'
+import { FAQSection } from '@/components/landing/FAQSection'
+import { AppDownloadSection } from '@/components/landing/AppDownloadSection'
 
 export default function Page() {
   return (
@@ -19,10 +23,16 @@ export default function Page() {
                 className="h-8 w-auto"
               />
               <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B35] to-[#E91E63]">
-                PHOTIZO
+                CHRISTLUMEN
               </span>
             </div>
             <div className="hidden md:flex space-x-8">
+              <a
+                href="#home"
+                className="text-gray-500 hover:text-gray-900 font-medium transition-colors"
+              >
+                Accueil
+              </a>
               <a
                 href="#features"
                 className="text-gray-500 hover:text-gray-900 font-medium transition-colors"
@@ -30,23 +40,23 @@ export default function Page() {
                 Fonctionnalités
               </a>
               <a
-                href="#community"
+                href="#faq"
                 className="text-gray-500 hover:text-gray-900 font-medium transition-colors"
               >
-                Communauté
+                FAQ
               </a>
               <a
-                href="#pricing"
+                href="#download"
                 className="text-gray-500 hover:text-gray-900 font-medium transition-colors"
               >
-                Tarifs
+                Téléchargement
               </a>
             </div>
             <div className="flex items-center gap-4">
                 <Button variant="ghost" className="hidden sm:inline-flex">
                   Connexion
                 </Button>
-              <a href="mailto:contact@photizo.app">
+              <a href="mailto:contact@christlumen.app">
                 <Button className="bg-gradient-to-r from-[#FF6B35] to-[#E91E63] border-0 hover:opacity-90">
                   Contacter
                 </Button>
@@ -59,7 +69,12 @@ export default function Page() {
       <main>
         <Hero />
         <CommunityShowcase/>
+        <FeatureSection />
         <ComingSoonSection />
+        <PricingSection/>
+        <AppDownloadSection/>
+        <FAQSection/>
+
 
       </main>
 

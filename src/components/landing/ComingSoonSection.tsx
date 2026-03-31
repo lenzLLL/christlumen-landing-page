@@ -12,7 +12,7 @@ const UPCOMING_FEATURES = [
 {
   title: 'Live Streaming Intégré',
   description:
-  'Diffusez vos cultes et événements en direct directement depuis PHOTIZO sans passer par des plateformes tierces.',
+  'Diffusez vos cultes et événements en direct directement depuis CHRISTLUMEN sans passer par des plateformes tierces.',
   icon: Video,
   color: 'text-red-500',
   bg: 'bg-red-50',
@@ -84,7 +84,7 @@ export function ComingSoonSection() {
             Bientôt disponible
           </motion.div>
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            L&apos;avenir de PHOTIZO
+            L&apos;avenir de CHRISTLUMEN
           </h2>
           <p className="mt-4 text-xl text-gray-500">
             Nous travaillons sans relâche pour vous apporter les meilleurs
@@ -189,10 +189,10 @@ export function ComingSoonSection() {
               Une idée de fonctionnalité ?
             </h3>
             <p className="text-sm text-gray-500 mb-6">
-              Nous construisons PHOTIZO avec vous. Partagez-nous vos besoins !
+              Nous construisons CHRISTLUMEN avec vous. Partagez-nous vos besoins !
             </p>
             <a
-              href="mailto:contact@photizo.app"
+              href="mailto:contact@christlumen.app"
               className="text-sm font-semibold text-[#FF6B35] hover:text-[#E91E63] transition-colors">
               
               Suggérer une idée &rarr;

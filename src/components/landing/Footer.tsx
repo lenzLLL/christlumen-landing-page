@@ -12,7 +12,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B35] to-[#E91E63]">
-                PHOTIZO
+                CHRISTLUMEN
               </span>
             </div>
             <p className="text-gray-400 text-sm">
@@ -126,7 +126,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} PHOTIZO. Tous droits réservés.
+            &copy; {new Date().getFullYear()} CHRISTLUMEN. Tous droits réservés.
           </p>
         </div>
       </div>
