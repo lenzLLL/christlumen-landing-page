@@ -53,9 +53,7 @@ export default function Page() {
               </a>
             </div>
             <div className="flex items-center gap-4">
-                <Button variant="ghost" className="hidden sm:inline-flex">
-                  Connexion
-                </Button>
+            
               <a href="mailto:contact@christlumen.app">
                 <Button className="bg-gradient-to-r from-[#FF6B35] to-[#E91E63] border-0 hover:opacity-90">
                   Contacter
