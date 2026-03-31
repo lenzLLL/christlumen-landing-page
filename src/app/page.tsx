@@ -4,6 +4,7 @@ import { Hero } from '../components/landing/Hero'
 import { ComingSoonSection } from '../components/landing/ComingSoonSection'
 import { Footer } from '../components/landing/Footer'
 import { Button } from '../components/ui/Button'
+import { CommunityShowcase } from '@/components/landing/CommunityShowCase'
 
 export default function Page() {
   return (
@@ -57,7 +58,9 @@ export default function Page() {
 
       <main>
         <Hero />
+        <CommunityShowcase/>
         <ComingSoonSection />
+
       </main>
 
       <Footer />
