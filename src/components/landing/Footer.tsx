@@ -41,7 +41,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/coming-soon"
+                  href="/#cs"
                   className="text-gray-400 hover:text-white transition-colors">
                   
                   Coming Soon
@@ -65,10 +65,10 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/confidentialite"
+                  href="/privacy-policy"
                   className="text-gray-400 hover:text-white transition-colors">
                   
-                  Confidentialité
+                  Politique de confidentialité
                 </Link>
               </li>
               <li>
@@ -81,7 +81,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/mentions-legales"
+                  href="/legal"
                   className="text-gray-400 hover:text-white transition-colors">
                   
                   Mentions légales

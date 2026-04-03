@@ -40,25 +40,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16 items-center">
-            <Link href="/" className="flex-shrink-0 flex items-center gap-2">
-              <img
-                src="https://cdn.magicpatterns.com/uploads/7PBXp3rY7vZe9XqCaXPcyH/ChatGPT_Image_14_janv._2026,_15_43_53.png"
-                alt="Logo"
-                className="h-8 w-auto"
-              />
-              <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B35] to-[#E91E63]">
-                CHRISTLUMEN
-              </span>
-            </Link>
-            <Link href="/">
-              <Button variant="ghost">Retour</Button>
-            </Link>
-          </div>
-        </div>
-      </nav>
+      
 
       <main className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto">

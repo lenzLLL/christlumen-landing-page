@@ -57,7 +57,7 @@ const UPCOMING_FEATURES = [
 
 export function ComingSoonSection() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section id="cs" className="py-24 bg-white relative overflow-hidden">
       {/* Background patterns */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 right-10 w-96 h-96 bg-[#FF6B35] rounded-full mix-blend-multiply filter blur-3xl"></div>
