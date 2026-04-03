@@ -32,9 +32,9 @@ export function Hero() {
     <div className="relative overflow-hidden bg-white pt-10 pb-20 lg:pt-16 lg:pb-28">
       {/* Background decoration */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
-        <div className="absolute top-0 -left-4 w-96 h-96 bg-[#FF6B35] rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#4A90E2] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-32 left-1/3 w-96 h-96 bg-[#9B59B6] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
+        <div className="absolute top-0 -left-4 w-96 h-96 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#87CEEB] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-32 left-1/3 w-96 h-96 bg-[#FFB347] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,14 +54,14 @@ export function Hero() {
                 duration: 0.5
               }}>
               
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-orange-50 text-[#FF6B35] text-sm font-medium mb-6 border border-orange-100">
-                <span className="flex h-2 w-2 rounded-full bg-[#FF6B35] mr-2 animate-pulse"></span>
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-yellow-50 text-[#FFD700] text-sm font-medium mb-6 border border-yellow-200">
+                <span className="flex h-2 w-2 rounded-full bg-[#FFD700] mr-2 animate-pulse"></span>
                 La plateforme #1 pour les églises connectées
               </div>
 
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
                 <span className="block">Plus qu&apos;un outil,</span>
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B35] via-[#E91E63] to-[#9B59B6]">
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] via-[#DAA520] to-[#FFB347]">
                   votre réseau social
                 </span>
               </h1>
@@ -129,7 +129,7 @@ export function Hero() {
               }}
               className="relative z-10">
               
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#FF6B35]/20 to-[#E91E63]/20 rounded-full filter blur-3xl transform scale-75 -z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#FFD700]/20 to-[#DAA520]/20 rounded-full filter blur-3xl transform scale-75 -z-10"></div>
               <FeedPreview />
             </motion.div>
 

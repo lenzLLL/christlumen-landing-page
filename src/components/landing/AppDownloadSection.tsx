@@ -7,8 +7,8 @@ export function AppDownloadSection() {
     <section id="download" className="py-24 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden relative">
       {/* Background patterns */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-[#FF6B35] rounded-full mix-blend-overlay filter blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#E91E63] rounded-full mix-blend-overlay filter blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-[#FFD700] rounded-full mix-blend-overlay filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#DAA520] rounded-full mix-blend-overlay filter blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -89,7 +89,7 @@ export function AppDownloadSection() {
                 <p className="text-sm text-gray-400">
                   Compatible iOS et Android
                 </p>
-                <div className="mt-2 flex items-center text-[#FF6B35] text-sm font-medium">
+                <div className="mt-2 flex items-center text-[#FFD700] text-sm font-medium">
                   <Download className="w-4 h-4 mr-1" />
                   Installation gratuite
                 </div>
@@ -117,7 +117,7 @@ export function AppDownloadSection() {
             className="relative flex justify-center lg:justify-end"
           >
             <div className="relative z-10 w-72 md:w-80">
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#FF6B35] to-[#E91E63] rounded-[3rem] blur-2xl opacity-40 transform rotate-6 scale-105"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#FFD700] to-[#DAA520] rounded-[3rem] blur-2xl opacity-40 transform rotate-6 scale-105"></div>
               <div className="relative bg-gray-900 rounded-[3rem] border-[8px] border-gray-800 shadow-2xl overflow-hidden">
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl z-20"></div>
                 <img
@@ -129,7 +129,7 @@ export function AppDownloadSection() {
                 {/* Overlay UI Elements */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6 pt-20">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 rounded-full bg-[#FF6B35] flex items-center justify-center text-white font-bold">
+                    <div className="w-10 h-10 rounded-full bg-[#FFD700] flex items-center justify-center text-white font-bold">
                       P
                     </div>
                     <div>

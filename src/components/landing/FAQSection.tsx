@@ -40,12 +40,12 @@ export function FAQSection() {
   return (
     <section id="faq" className="py-24 bg-gray-50 relative overflow-hidden">
       {/* Decorative background */}
-      <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-gradient-to-br from-[#FF6B35]/10 to-[#E91E63]/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-gradient-to-br from-[#FFD700]/10 to-[#DAA520]/10 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-gradient-to-tr from-[#4A90E2]/10 to-[#9B59B6]/10 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-sm text-[#FF6B35] mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-sm text-[#FFD700] mb-6">
             <div className="w-8 h-8" />
           </div>
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -84,7 +84,7 @@ export function FAQSection() {
                   {faq.question}
                 </span>
                 <span
-                  className={`flex-shrink-0 ml-4 flex items-center justify-center w-8 h-8 rounded-full transition-colors duration-300 ${openIndex === index ? 'bg-orange-50 text-[#FF6B35]' : 'bg-gray-50 text-gray-400'}`}
+                  className={`flex-shrink-0 ml-4 flex items-center justify-center w-8 h-8 rounded-full transition-colors duration-300 ${openIndex === index ? 'bg-yellow-50 text-[#FFD700]' : 'bg-gray-50 text-gray-400'}`}
                 >
                   <ChevronDown
                     className={`w-5 h-5 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
@@ -122,15 +122,7 @@ export function FAQSection() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-gray-500 mb-4">Vous avez d'autres questions ?</p>
-          <a
-            href="mailto:contact@photizo.app"
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-xl text-[#FF6B35] bg-orange-50 hover:bg-orange-100 transition-colors"
-          >
-            Contactez notre équipe
-          </a>
-        </div>
+ 
       </div>
     </section>
   )

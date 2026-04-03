@@ -108,7 +108,7 @@ export function CommunityShowcase() {
         </div>
 
         {/* Testimonial Snippet */}
-        <div className="mt-20 bg-gradient-to-r from-[#FF6B35] to-[#E91E63] rounded-3xl p-8 md:p-12 text-white text-center relative overflow-hidden">
+        <div className="mt-20 bg-gradient-to-r from-[#FFD700] to-[#DAA520] rounded-3xl p-8 md:p-12 text-white text-center relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
           <div className="relative z-10 max-w-3xl mx-auto">
             <p className="text-2xl md:text-3xl font-medium italic mb-8">

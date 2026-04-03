@@ -76,7 +76,7 @@ export function FeedPreview() {
 
         {/* App Header */}
         <div className="px-4 py-3 border-b border-gray-100 flex justify-between items-center bg-white sticky top-0 z-10">
-          <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B35] to-[#E91E63]">
+          <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-[#FFD700] to-[#DAA520]">
             Fil d'actualité
           </span>
           <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
@@ -91,7 +91,7 @@ export function FeedPreview() {
               key={i}
               className="flex flex-col items-center gap-1 min-w-[60px]"
             >
-              <div className="w-14 h-14 rounded-full p-[2px] bg-gradient-to-tr from-[#FF6B35] to-[#E91E63]">
+              <div className="w-14 h-14 rounded-full p-[2px] bg-gradient-to-tr from-[#FFD700] to-[#DAA520]">
                 <div className="w-full h-full rounded-full border-2 border-white overflow-hidden">
                   <img
                     src={url}

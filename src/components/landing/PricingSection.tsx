@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Check } from 'lucide-react'
 import { Button } from '../ui/Button'
 const tiers = [
@@ -12,7 +13,7 @@ const tiers = [
       'Gestion des événements basique',
       'Dons (frais standard)',
     ],
-    cta: 'Commencer',
+    cta: 'Contacter',
     variant: 'outline' as const,
   },
   {
@@ -27,7 +28,7 @@ const tiers = [
       'Support prioritaire',
       'Statistiques de base',
     ],
-    cta: 'Choisir Starter',
+    cta: 'Contacter',
     variant: 'secondary' as const,
     highlighted: false,
   },
@@ -44,7 +45,7 @@ const tiers = [
       'Statistiques détaillées',
       'Frais de transaction réduits',
     ],
-    cta: 'Choisir Pro',
+    cta: 'Contacter',
     variant: 'primary' as const,
     highlighted: true,
   },
@@ -61,7 +62,7 @@ const tiers = [
       'Formation personnalisée',
       'Marque blanche',
     ],
-    cta: 'Contacter les ventes',
+    cta: 'Contacter',
     variant: 'outline' as const,
   },
 ]
@@ -85,7 +86,7 @@ export function PricingSection() {
               key={tier.name}
               className={`
                 relative p-8 bg-white border rounded-2xl shadow-sm flex flex-col
-                ${tier.highlighted ? 'border-[#FF6B35] ring-2 ring-[#FF6B35] ring-opacity-50 scale-105 z-10' : 'border-gray-200 hover:border-gray-300'}
+                ${tier.highlighted ? 'border-[#FFD700] ring-2 ring-[#FFD700] ring-opacity-50 scale-105 z-10' : 'border-gray-200 hover:border-gray-300'}
               `}
             >
               <div className="flex-1">
@@ -93,7 +94,7 @@ export function PricingSection() {
                   {tier.name}
                 </h3>
                 {tier.highlighted && (
-                  <p className="absolute top-0 -translate-y-1/2 bg-[#FF6B35] text-white px-3 py-0.5 text-sm font-semibold rounded-full transform left-1/2 -translate-x-1/2">
+                  <p className="absolute top-0 -translate-y-1/2 bg-[#FFD700] text-white px-3 py-0.5 text-sm font-semibold rounded-full transform left-1/2 -translate-x-1/2">
                     Populaire
                   </p>
                 )}
@@ -120,9 +121,11 @@ export function PricingSection() {
               </div>
 
               <div className="mt-8">
-                <Button variant={tier.variant} className="w-full">
-                  {tier.cta}
-                </Button>
+                <Link href="/contact" className="w-full inline-block">
+                  <Button variant={tier.variant} className="w-full">
+                    {tier.cta}
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

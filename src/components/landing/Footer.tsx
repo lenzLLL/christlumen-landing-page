@@ -11,9 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B35] to-[#E91E63]">
-                CHRISTLUMEN
-              </span>
+              <img className='w-auto h-24' src ="/logo-white.png"/>
             </div>
             <p className="text-gray-400 text-sm">
               La plateforme digitale pour propulser votre église vers l&apos;avenir.
@@ -99,13 +97,13 @@ export function Footer() {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#FF6B35] transition-colors">
+                className="text-gray-400 hover:text-[#FFD700] transition-colors">
                 
                 <FaFacebook className="h-6 w-6" />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#E91E63] transition-colors">
+                className="text-gray-400 hover:text-[#DAA520] transition-colors">
                 
                 <FaInstagram className="h-6 w-6" />
               </a>
