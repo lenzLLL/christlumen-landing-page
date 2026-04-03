@@ -19,6 +19,15 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section,
+#home {
+  scroll-margin-top: 5rem;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

@@ -84,7 +84,7 @@ export function ComingSoonSection() {
             Bientôt disponible
           </motion.div>
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            L&apos;avenir de CHRISTLUMEN
+            L&apos;avenir de ChristLumen
           </h2>
           <p className="mt-4 text-xl text-gray-500">
             Nous travaillons sans relâche pour vous apporter les meilleurs
@@ -162,42 +162,7 @@ export function ComingSoonSection() {
           )}
 
           {/* Suggestion Card */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              scale: 0.95,
-              y: 20
-            }}
-            whileInView={{
-              opacity: 1,
-              scale: 1,
-              y: 0
-            }}
-            viewport={{
-              once: true
-            }}
-            transition={{
-              delay: UPCOMING_FEATURES.length * 0.1,
-              duration: 0.5
-            }}
-            className="relative h-full bg-gradient-to-br from-[#FF6B35]/5 to-[#E91E63]/5 border border-dashed border-[#FF6B35]/30 rounded-2xl p-8 flex flex-col items-center justify-center text-center hover:bg-[#FF6B35]/10 transition-colors cursor-pointer">
-            
-            <div className="w-14 h-14 rounded-full bg-white shadow-sm flex items-center justify-center mb-4 text-[#FF6B35]">
-              <Sparkles className="w-6 h-6" />
-            </div>
-            <h3 className="text-lg font-bold text-gray-900 mb-2">
-              Une idée de fonctionnalité ?
-            </h3>
-            <p className="text-sm text-gray-500 mb-6">
-              Nous construisons CHRISTLUMEN avec vous. Partagez-nous vos besoins !
-            </p>
-            <a
-              href="mailto:contact@christlumen.app"
-              className="text-sm font-semibold text-[#FF6B35] hover:text-[#E91E63] transition-colors">
-              
-              Suggérer une idée &rarr;
-            </a>
-          </motion.div>
+        
         </div>
       </div>
     </section>);

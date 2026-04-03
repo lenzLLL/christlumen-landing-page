@@ -133,7 +133,7 @@ export function AppDownloadSection() {
                       P
                     </div>
                     <div>
-                      <p className="text-white font-bold">PHOTIZO</p>
+                      <p className="text-white font-bold">CHRISTLUMEN</p>
                       <p className="text-xs text-gray-300">
                         Votre communauté en poche
                       </p>
@@ -182,3 +182,4 @@ export function AppDownloadSection() {
     </section>
   )
 }
+

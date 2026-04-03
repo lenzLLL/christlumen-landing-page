@@ -29,7 +29,7 @@ const FLOATING_IMAGES = [
 
 export function Hero() {
   return (
-    <div className="relative overflow-hidden bg-white pt-10 pb-20 lg:pt-16 lg:pb-28">
+    <div id="home" className="relative overflow-hidden bg-white pt-10 pb-20 lg:pt-16 lg:pb-28">
       {/* Background decoration */}
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <div className="absolute top-0 -left-4 w-96 h-96 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
@@ -73,23 +73,23 @@ export function Hero() {
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link href="/signup">
+                <a href="#download" className="w-full sm:w-auto">
                   <Button
                     size="lg"
                     className="w-full sm:w-auto px-8"
-                    rightIcon={<ArrowRight className="w-5 h-5" />}>
-                    
-                    Commencer gratuitement
+                    leftIcon={<svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.74 1.18 0 2.45-1.62 4.37-1.62 1.03.06 2.57.43 3.65 1.58-3.26 1.88-2.57 6.3.72 7.65-.54 1.55-1.33 3.11-2.46 4.62h.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>}>
+                    App Store
                   </Button>
-                </Link>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="w-full sm:w-auto"
-                  leftIcon={<PlayCircle className="w-5 h-5" />}>
-                  
-                  Voir la démo
-                </Button>
+                </a>
+                <a href="#download" className="w-full sm:w-auto">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="w-full sm:w-auto"
+                    leftIcon={<svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.412-.13L1.53 20.64a.994.994 0 0 1-.03-1.65L9.5 12 1.5 4.01a.994.994 0 0 1 .03-1.65L3.2.396a.996.996 0 0 1 .409.418zM15.208 12L5.026 22.186a.997.997 0 0 0 .124 1.618l1.668 1.112a1 1 0 0 0 1.386-.276l10.824-10.824a1.002 1.002 0 0 0 0-1.416L8.204.6a1 1 0 0 0-1.386-.276L5.15 1.436a.997.997 0 0 0-.124 1.618L15.208 12z"/></svg>}>
+                    Google Play
+                  </Button>
+                </a>
               </div>
 
               <div className="mt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-400">

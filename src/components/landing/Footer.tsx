@@ -10,11 +10,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-2 mb-0">
               <img className='w-auto h-24' src ="/logo-white.png"/>
             </div>
             <p className="text-gray-400 text-sm">
-              La plateforme digitale pour propulser votre église vers l&apos;avenir.
+              Une plateforme digitale innovante au service de votre église, pour renforcer son impact, sa communication et sa mission dans un monde en constante évolution.
             </p>
           </div>
 

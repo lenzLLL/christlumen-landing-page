@@ -36,7 +36,7 @@ export function CommunityShowcase() {
           </h2>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto">
             Rejoignez des centaines d'églises qui transforment leur gestion et
-            leur communication avec PHOTIZO.
+            leur communication avec CHRISTLUMEN.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export function CommunityShowcase() {
           <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
           <div className="relative z-10 max-w-3xl mx-auto">
             <p className="text-2xl md:text-3xl font-medium italic mb-8">
-              "PHOTIZO a complètement transformé la façon dont nous
+              "CHRISTLUMEN a complètement transformé la façon dont nous
               interagissons avec nos fidèles. C'est bien plus qu'un outil de
               gestion, c'est un véritable réseau social pour notre église."
             </p>
@@ -135,3 +135,4 @@ export function CommunityShowcase() {
     </section>
   )
 }
+

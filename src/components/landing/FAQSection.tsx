@@ -4,9 +4,9 @@ import { ChevronDown } from 'lucide-react'
 const FAQS = [
   {
     question:
-      "Comment PHOTIZO diffère-t-il d'un logiciel de gestion d'église classique ?",
+      "Comment CHRISTLUMEN diffère-t-il d'un logiciel de gestion d'église classique ?",
     answer:
-      "PHOTIZO combine la puissance d'un outil de gestion complet (membres, dons, événements) avec l'engagement d'un réseau social privé dédié à votre église. Vos membres ne sont plus de simples lignes dans une base de données, ils interagissent activement avec votre contenu.",
+      "CHRISTLUMEN combine la puissance d'un outil de gestion complet (membres, dons, événements) avec l'engagement d'un réseau social privé dédié à votre église. Vos membres ne sont plus de simples lignes dans une base de données, ils interagissent activement avec votre contenu.",
   },
   {
     question: 'Puis-je gérer plusieurs églises ou campus avec un seul compte ?',
@@ -22,7 +22,7 @@ const FAQS = [
     question:
       "L'application mobile est-elle disponible pour tous les membres ?",
     answer:
-      "Absolument. Vos membres peuvent télécharger gratuitement l'application PHOTIZO sur iOS et Android pour suivre vos actualités, regarder vos cultes en direct et interagir avec la communauté.",
+      "Absolument. Vos membres peuvent télécharger gratuitement l'application CHRISTLUMEN sur iOS et Android pour suivre vos actualités, regarder vos cultes en direct et interagir avec la communauté.",
   },
   {
     question: 'Mes données sont-elles sécurisées ?',
@@ -52,7 +52,7 @@ export function FAQSection() {
             Questions fréquentes
           </h2>
           <p className="mt-4 text-xl text-gray-500">
-            Tout ce que vous devez savoir sur PHOTIZO.
+            Tout ce que vous devez savoir sur CHRISTLUMEN.
           </p>
         </div>
 
@@ -127,3 +127,4 @@ export function FAQSection() {
     </section>
   )
 }
+

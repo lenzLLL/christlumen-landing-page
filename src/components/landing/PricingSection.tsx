@@ -29,7 +29,7 @@ const tiers = [
       'Statistiques de base',
     ],
     cta: 'Contacter',
-    variant: 'secondary' as const,
+    variant: 'outline' as const,
     highlighted: false,
   },
   {
